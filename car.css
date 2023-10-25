@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.container {
+  background: #ffffff;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 50px 100px;
+  text-align: center;
+}
+
+.container .carro {
+  width: 200px;
+  height: 600px;
+  border-radius: 20px;
+  flex: 1;
+}
+
+.container .car_one {
+  filter: blur(3.5px);
+  transition: all 0.5s ease-in-out;
+}
+
+.container .car_two {
+  filter: blur(3.5px);
+  transition: all 0.5s ease-in-out;
+}
+
+.container .car_three {
+  filter: blur(3.5px);
+  transition: all 0.5s ease-in-out;
+}
+
+.container .car_four {
+  filter: blur(3.5px);
+  transition: all 0.5s ease-in-out;
+}
+
+.container .car_five {
+  filter: blur(3.5px);
+  transition: all 0.5s ease-in-out;
+}
+
+.container .car_one:hover {
+  transition: all 0.5s ease-in-out;
+  border-radius: 0;
+  filter: blur(0);
+  flex: 34;
+}
+
+.container .car_two:hover {
+  border-radius: 0;
+  transition: all 0.5s ease-in-out;
+  filter: blur(0);
+  flex: 4;
+}
+
+.container .car_three:hover {
+  border-radius: 0;
+  transition: all 0.5s ease-in-out;
+  filter: blur(0);
+  flex: 4;
+}
+
+.container .car_four:hover {
+  border-radius: 0;
+  transition: all 0.5s ease-in-out;
+  filter: blur(0);
+  flex: 4;
+}
+
+.container .car_five:hover {
+  border-radius: 0;
+  transition: all 0.5s ease-in-out;
+  filter: blur(0);
+  flex: 4;
+}
+
+.carro img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #000000;
+  margin-top: 20px;
+  font-family: monospace;
+  text-align: center;
+}
+
+/* keyframe for flex grow animation */
+@keyframes grow {
+  0% {
+    flex: 1;
+  }
+  100% {
+    flex: 4;
+  }
+}
