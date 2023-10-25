@@ -14,7 +14,7 @@ This is a simple card animation using HTML and CSS (particularly playing with fl
 
 ### Screenshot
 
-![Screenshot](./cars.png)
+![Screenshot](./images/cars.png)
 
 ### Links
 
